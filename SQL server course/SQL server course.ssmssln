@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # SQL Server Management Studio Solution File, Format Version 12.00
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Day1", "SQL Day1\SQL Day1.ssmssqlproj", "{F3969489-F920-4A14-BB2A-399511E75917}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Day 2", "SQL Day 2\SQL Day 2.ssmssqlproj", "{E9816CE1-D403-4D2A-A734-3FF8C54787D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F3969489-F920-4A14-BB2A-399511E75917}.Default|Default.ActiveCfg = Default
-		{E90FDA8D-0C5E-4533-9BDE-FCBC7468D2F5}.Default|Default.ActiveCfg = Default
+		{8050CAF1-CCBD-4355-9BD8-0E646D85A88B}.Default|Default.ActiveCfg = Default
+		{E9816CE1-D403-4D2A-A734-3FF8C54787D0}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Day1">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Day 2">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="KG_TRAINING05\KUBRICK:KG_Training05\student05">
-          <Created>2016-08-18T13:17:31.6979428+01:00</Created>
+          <Created>2016-08-19T09:34:19.978822+01:00</Created>
           <Type>SQL</Type>
           <Server>KG_TRAINING05\KUBRICK</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
+          <InitialDB>AdventureWorks2014</InitialDB>
           <LoginTimeout>15</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
@@ -19,41 +19,29 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="Aggregates.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>Aggregates.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2.sql">
+        <FileNode Name="IF.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2.sql</FullPath>
+          <FullPath>IF.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery3.sql">
+        <FileNode Name="JoinColumns.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery3.sql</FullPath>
+          <FullPath>JoinColumns.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery4.sql">
+        <FileNode Name="JoinRows.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery4.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery5.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery5.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery6.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KG_TRAINING05\KUBRICK:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>KG_TRAINING05\KUBRICK</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery6.sql</FullPath>
+          <FullPath>JoinRows.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
